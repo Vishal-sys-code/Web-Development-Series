@@ -1,3 +1,5 @@
+// -----------------------------------------------------------
+/* NUMBERS */
 let age = 25;
 console.log(age);
 
@@ -14,6 +16,9 @@ console.log(typeof age);
 console.log(typeof gpa);
 console.log(typeof price);
 
+// -----------------------------------------------------------
+
+/* STRINGS */
 let firstName = "Vishal";
 let favFood = "Pizza";
 
@@ -21,6 +26,9 @@ console.log(typeof firstName);
 console.log(`Your name is ${firstName}`);
 console.log(`Your Favorite food is: ${favFood}`);
 
+// -----------------------------------------------------------
+
+/* BOOLEANS */
 let online = true;
 console.log(typeof online);
 console.log(`Vishal is online: ${online}`);
@@ -28,3 +36,5 @@ console.log(`Vishal is online: ${online}`);
 let forSale = true;
 console.log(typeof forSale);
 console.log(`Is this your car for sale: ${forSale}`);
+
+// -----------------------------------------------------------
