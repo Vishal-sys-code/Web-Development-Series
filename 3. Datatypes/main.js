@@ -38,3 +38,7 @@ console.log(typeof forSale);
 console.log(`Is this your car for sale: ${forSale}`);
 
 // -----------------------------------------------------------
+
+let fullName = "Vishal Pandey";
+let myage = 22;
+let student = false;
