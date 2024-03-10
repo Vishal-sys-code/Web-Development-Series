@@ -45,4 +45,4 @@ let isStudent = false;
 
 document.getElementById("p1").textContent = `Your Name is: ${fullName}`;
 document.getElementById("p2").textContent = `Your are ${myage} years old`;
-document.getElementById("p3").textContent = `Enrolled: ${student}`;
+document.getElementById("p3").textContent = `Enrolled: ${isStudent}`;
