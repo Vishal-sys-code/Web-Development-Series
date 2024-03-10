@@ -41,4 +41,8 @@ console.log(`Is this your car for sale: ${forSale}`);
 
 let fullName = "Vishal Pandey";
 let myage = 22;
-let student = false;
+let isStudent = false;
+
+document.getElementById("p1").textContent = `Your Name is: ${fullName}`;
+document.getElementById("p2").textContent = `Your are ${myage} years old`;
+document.getElementById("p3").textContent = `Enrolled: ${student}`;
