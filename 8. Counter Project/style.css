@@ -13,3 +13,17 @@ body{
 #btnContainer{
     text-align: center;
 }
+
+.buttons{
+    padding: 10px 20px;
+    font-size: 1.5em;
+    color: black;
+    background-color: bisque;
+    border-radius: 5em;
+    cursor: pointer;
+    transition: background-color 0.25s;
+}
+
+.buttons:hover{
+    background-color: rgb(238, 160, 64);
+}
