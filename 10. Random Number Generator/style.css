@@ -11,3 +11,7 @@ body{
     padding: 5px 25 px;
     border-radius: 2em;
 }
+
+#myLabel{
+    font-size: 3em;
+}
