@@ -32,4 +32,9 @@ console.log(z);
 // console.log(z);
 
 z = Math.sin(a);
-console.log(z);
+// console.log(z);
+
+let max = Math.max(x,y,z);
+let min = Math.min(x,y,z);
+console.log(max);
+console.log(min);
