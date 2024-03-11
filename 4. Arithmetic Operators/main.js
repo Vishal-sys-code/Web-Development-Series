@@ -44,3 +44,7 @@ console.log(result);
 let result1 = 12 % 5 + 8 / 2;
 console.log(result1);
 // 12 % 5 + 8 / 2 = 12 % 5 + 4 = 2 + 4 = 6
+
+let result2 = 6 / 2 ** (2 + 5);
+console.log(result2);
+// 6 / 2 ** (2 + 5) = 6 / 2 ** 7 = 6 / 128 = 0.046875
