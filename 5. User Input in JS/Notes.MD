@@ -1,0 +1,7 @@
+* **`let username;`**: This line declares a variable called username using the let keyword. This variable will be used to store the value entered by the user.
+
+* **`document.getElementById('mySubmit').onclick = function(){ ... }`**: This line adds an event listener to the HTML element with the ID "mySubmit". The event being listened for is a click event. When the user clicks on the element with the ID "mySubmit", the function defined inside the curly braces { ... } will be executed.
+
+* **`username = document.getElementById("myText").value;`**: Within the click event handler, this line retrieves the value entered by the user in an input field with the ID "myText" and assigns it to the username variable. The document.getElementById("myText").value expression accesses the value property of the HTML input element with the ID "myText".
+
+* **`document.getElementById("myH1").textContent = Hello ${username};`**: This line sets the text content of the HTML element with the ID "myH1" to a string that includes the user's entered username. The ${username} part is a template literal that allows for easy string interpolation, meaning the value of the username variable will be inserted into the string. This will result in a greeting message like "Hello [username]".
