@@ -10,7 +10,17 @@
 const PI = 3.14
 
 // Using of "==" operator
+console.log("------ Example of "==" Operator ------");
 if(PI == "3.14"){
+    console.log("That is PI");
+}
+else{
+    console.log("This is not PI");
+}
+
+// Using of "===" operator
+console.log("------ Example of "===" Operator ------");
+if(PI === "3.14"){
     console.log("That is PI");
 }
 else{
