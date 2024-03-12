@@ -23,3 +23,26 @@ console.log(y);
 
 z = username.toLowerCase();
 console.log(z);
+
+a = username.repeat(3);
+console.log(a);
+
+let result = username.startsWith(" ");
+console.log(result);
+
+if(result){
+    console.log("Your username can't begin with ' '");
+}
+else{
+    console.log(username);
+}
+
+let result1 = username.endsWith(" ");
+console.log(result);
+
+if(result){
+    console.log("Your username can't end with ' '");
+}
+else{
+    console.log(username);
+}
