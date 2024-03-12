@@ -20,6 +20,14 @@ else{
 
 // Using of "===" operator
 console.log("------ Example of "===" Operator ------");
+
+/*
+if(PI === "3.14"){
+    console.log("That is PI");
+}
+// It will  never execute because the data type of PI is Number and we have provided a String value here so this will return false.
+*/
+
 if(PI === 3.14){
     console.log("That is PI");
 }
