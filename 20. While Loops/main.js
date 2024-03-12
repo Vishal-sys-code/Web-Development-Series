@@ -36,3 +36,11 @@ console.log(`Hello ${username2}`);
 
 // --------------------------------------------------------------------------------------------------------------
 
+let username3 = "";
+while(username3 === "" || username3 === null){
+    username2 = window.prompt(`Enter Your Name`);
+}
+console.log(`Hello ${username3}`);
+
+// In this part of the upper code the Cancel button of the Prompt will not work. It will take the input aggressively.
+
