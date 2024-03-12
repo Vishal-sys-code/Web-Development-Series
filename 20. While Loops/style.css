@@ -10,3 +10,11 @@ body{
 #myH1{
     text-align: center;
 }
+
+#mySubmit{
+    background-color: rgb(253, 233, 197);
+}
+
+#mySubmit:hover{
+    background-color: rgb(209, 85, 85)
+}
