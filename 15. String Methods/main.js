@@ -12,3 +12,14 @@ console.log(username.indexOf("l"));
 console.log(username.lastIndexOf("P"));
 console.log(username.lastIndexOf(" "));
 console.log(username.lastIndexOf("h"));
+
+console.log(username.length);
+
+x = username.trim();
+console.log(x);
+
+y = username.toUpperCase();
+console.log(y);
+
+z = username.toLowerCase();
+console.log(z);
