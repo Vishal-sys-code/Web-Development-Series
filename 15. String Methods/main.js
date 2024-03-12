@@ -56,3 +56,14 @@ if(result2){
 else{
     console.log(username);
 }
+
+let phoneNumber = "628-973-0108";
+console.log(phoneNumber);
+
+let phoneNumber1 = phoneNumber.replaceAll("-", "/");
+console.log(phoneNumber1);
+
+let phoneNumber2 = phoneNumber.padStart(10, "0");
+let phoneNumber3 = phoneNumber.padEnd(10, "0");
+console.log(phoneNumber1);
+console.log(phoneNumber2);
