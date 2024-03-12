@@ -20,7 +20,7 @@ else{
 
 // Using of "===" operator
 console.log("------ Example of "===" Operator ------");
-if(PI === "3.14"){
+if(PI === 3.14){
     console.log("That is PI");
 }
 else{
