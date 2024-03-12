@@ -50,3 +50,21 @@ else{
 
 // -------------------------------------------------------------------------
 
+let age_2 = -1;
+if(age >= 18){
+    console.log("You are old enough to enter this site");
+}
+else if(age == 0){
+    console.log("You can't enter. You were just born");
+}
+else if(age < 0){
+    console.log("Your age can't be below 0");
+}
+else if(age >= 100){
+    console.log("Your are too old to enter this site");
+}
+else{
+    console.log("You must be 18+ to enter this site");
+}
+
+// -------------------------------------------------------------------------
