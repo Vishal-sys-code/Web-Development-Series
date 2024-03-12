@@ -12,9 +12,12 @@ body{
 }
 
 #mySubmit{
+    border-radius: 5em;
+    cursor: pointer;
+    transition: background-color 0.25s;
     background-color: rgb(253, 233, 197);
 }
 
 #mySubmit:hover{
-    background-color: rgb(209, 85, 85)
+    background-color: rgb(238, 160, 64);
 }
