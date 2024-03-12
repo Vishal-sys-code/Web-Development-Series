@@ -14,6 +14,18 @@ mySubmit.onclick = function(){
         subsResult.textContent = `You are Subscribed!`;
     }
     else{
-        subsResult.textContent = `AYEE, You are not Subscribed!!!`;
+        subsResult.textContent = `AYEE!!!, You are not Subscribed!!!`;
+    }
+    if(visaBtn.checked){
+        payResult.textContent = `The payment has been done from VISA card`;
+    }
+    else if(mastercardBtn.checked){
+        payResult.textContent = `The payment has been done from MASTERCARD card`;
+    }
+    else if(paypalBtn.checked){
+        payResult.textContent = `The payment has been done from PAYPAL account`;
+    }
+    else{
+        payResult.textContent = `AYEE!!!, Payment hasn't been done`;
     }
 }
