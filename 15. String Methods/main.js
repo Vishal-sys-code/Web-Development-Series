@@ -40,8 +40,18 @@ else{
 let result1 = username.endsWith(" ");
 console.log(result);
 
-if(result){
+if(result1){
     console.log("Your username can't end with ' '");
+}
+else{
+    console.log(username);
+}
+
+let result2 = username.includes(" ");
+console.log(result);
+
+if(result2){
+    console.log("Your username can't include with ' '");
 }
 else{
     console.log(username);
