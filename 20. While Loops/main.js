@@ -44,3 +44,16 @@ console.log(`Hello ${username3}`);
 
 // In this part of the upper code the Cancel button of the Prompt will not work. It will take the input aggressively.
 
+// --------------------------------------------------------------------------------------------------------------
+
+/*
+So, for the Do-While Loop we need to know the syntax as we can do further process as same as the While loop.
+
+Lets take the example of the last part of the code:
+
+let username3 = "";
+do{
+    username2 = window.prompt(`Enter Your Name`);
+}while(username3 === "" || username3 === null);
+console.log(`Hello ${username3}`);
+*/
