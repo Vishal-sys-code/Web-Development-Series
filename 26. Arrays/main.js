@@ -51,3 +51,8 @@ fruits.sort();
 for(let fruit of fruits){
     console.log(fruit);
 }
+
+fruits.reverse();
+for(let fruit of fruits){
+    console.log(fruit);
+}
