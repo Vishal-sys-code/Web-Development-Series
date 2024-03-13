@@ -35,3 +35,8 @@ for(let i = 0; i < len_fruits; i++){
 for(let fruit of fruits){
     console.log(fruit);
 }
+
+fruits.sort();
+for(let fruit of fruits){
+    console.log(fruit);
+}
