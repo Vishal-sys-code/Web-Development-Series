@@ -24,3 +24,14 @@ console.log(fruits);
 
 let len_fruits = fruits.length;
 console.log(len_fruits);
+
+let index = fruits.indexOf("banana");
+console.log(index);
+
+for(let i = 0; i < len_fruits; i++){
+    console.log(fruits[i]);
+}
+
+for(let fruit of fruits){
+    console.log(fruit);
+}
