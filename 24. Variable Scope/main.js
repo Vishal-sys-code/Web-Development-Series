@@ -21,3 +21,19 @@ function myFunction() {
 myFunction(); // Calling myFunction
 
 // In this example, localVariable is declared inside the myFunction function, making it a local variable. It is only accessible within the myFunction function.
+
+/*
+let x = 3;
+
+function2();
+
+function function1(){
+    let x = 1;
+    console.log(x);
+}
+
+function function2(){
+    let x = 2;
+    console.log(x);
+}
+*/
