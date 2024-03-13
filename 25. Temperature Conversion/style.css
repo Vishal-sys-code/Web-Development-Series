@@ -45,3 +45,8 @@ button{
 button:hover{
     background-color: rgb(162, 89, 0);
 }
+
+#myResult{
+    font-size: 1.7em;
+    font-weight: bold;
+}
