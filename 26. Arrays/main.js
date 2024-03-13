@@ -10,6 +10,17 @@ console.log(fruits[1]);
 console.log(fruits[2]);
 console.log(fruits[3]);
 
+/* 
+OUTPUT:
+[ 'apple', 'orange', 'banana' ]
+apple
+orange
+banana
+undefined
+*/
+
+// ----------------------------------------------------------------------------
+
 fruits[3] = "coconut";
 console.log(fruits);
 
