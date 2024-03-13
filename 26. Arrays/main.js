@@ -18,3 +18,6 @@ console.log(fruits);
 
 fruits.unshift("mango");
 console.log(fruits);
+
+fruits.shift();
+console.log(fruits);
