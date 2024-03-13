@@ -46,9 +46,21 @@ function isEven(number){
     // return number % 2 === 0 ? true : false
 }
 
+function isValidEmail(email){
+    if(email.includes("@")){
+        return true;
+    }
+    else{
+        return false;
+    }
+}
+
 console.log(add(2,3));
 console.log(subs(2,3));
 console.log(mul(2,3));
 console.log(div(2,3));
 console.log(mod(2,3));
 console.log(isEven(20));
+
+console.log(isValidEmail("billgates.com"));
+console.log(isValidEmail("billgates@micorsoft.com"));
