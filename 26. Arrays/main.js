@@ -21,3 +21,6 @@ console.log(fruits);
 
 fruits.shift();
 console.log(fruits);
+
+let len_fruits = fruits.length;
+console.log(len_fruits);
