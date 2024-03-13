@@ -25,7 +25,7 @@ while(running){
             window.alert("TOO HIGH! TRY AGAIN!!!");
         }
         else {
-            window.alert(`CORRECT!!! The answer was ${ans}. It tooks you ${attempts} to complete this procedure`);
+            window.alert(`CORRECT!!! The answer was ${ans}. It tooks you ${attempts} attempts to complete this procedure`);
             running = false;
         }
     }
