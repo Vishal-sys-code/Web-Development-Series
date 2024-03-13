@@ -43,6 +43,7 @@ function isEven(number){
     else{
         return false;
     }
+    // return number % 2 === 0 ? true : false
 }
 
 console.log(add(2,3));
