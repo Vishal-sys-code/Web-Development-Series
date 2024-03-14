@@ -23,3 +23,13 @@ function goodBye(){
 hello(goodBye);
 */
 
+function hello(callback){
+    console.log("Hello!!!");
+    callback();
+}
+
+function goodBye(){
+    console.log("GoodBye!!!");
+}
+
+hello(goodBye);
