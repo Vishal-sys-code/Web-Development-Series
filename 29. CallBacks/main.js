@@ -46,3 +46,7 @@ function displayConsole(result){
 }
 
 sum(displayConsole, 2, 2);
+
+function displayDOM(result){
+    document.getElementById("myH1").textContent = result;
+}
