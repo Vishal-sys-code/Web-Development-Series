@@ -9,6 +9,7 @@ Used to handle Asynchronous operations:
 3. Interacting with databases
 */
 
+/*
 function hello(){
     console.log("Hello!!!");
 }
@@ -20,3 +21,5 @@ function goodBye(){
 // hello();
 // goodBye();
 hello(goodBye);
+*/
+
