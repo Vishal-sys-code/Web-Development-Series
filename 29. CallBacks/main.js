@@ -17,6 +17,6 @@ function goodBye(){
     console.log("GoodBye!!!");
 }
 
-hello();
-goodBye();
+// hello();
+// goodBye();
 hello(goodBye);
