@@ -8,3 +8,15 @@ Used to handle Asynchronous operations:
 2. Network Requests
 3. Interacting with databases
 */
+
+function hello(){
+    console.log("Hello!!!");
+}
+
+function goodBye(){
+    console.log("GoodBye!!!");
+}
+
+hello();
+goodBye();
+hello(goodBye);
