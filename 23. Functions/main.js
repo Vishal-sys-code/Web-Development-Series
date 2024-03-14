@@ -64,3 +64,22 @@ console.log(isEven(20));
 
 console.log(isValidEmail("billgates.com"));
 console.log(isValidEmail("billgates@micorsoft.com"));
+
+/*
+Situation 1:
+hello(); // Function call before function definition
+function hello(){
+  console.log("Hello")
+}
+
+Situation 2:
+function hello(){
+  console.log("Hello");
+}
+hello(); // Function call after function definition
+
+In Situation 1, the function hello() is called before its actual definition in the code. This is known as "hoisting". In JavaScript, function declarations are hoisted to the top of their containing scope during the compilation phase. So even though hello() is called before its actual definition, it still works because the function declaration has been hoisted to the top.
+In Situation 2, the function call hello() occurs after the function definition. This is the more conventional way of calling functions.
+
+So, functionally, there's no difference between the two situations. However, the order of code execution differs due to hoisting in the first situation. It's generally considered better practice to define functions before calling them for code readability and maintainability.
+*/
