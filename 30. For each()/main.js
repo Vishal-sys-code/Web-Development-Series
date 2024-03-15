@@ -25,3 +25,8 @@ function display(element){
 
 numbers.forEach(double);
 numbers.forEach(display);
+
+let fruits = [];
+function display(){
+     
+}
