@@ -22,6 +22,7 @@ console.log(oddNums);
 
 // ------------------------------------------------------------
 
+/*
 const ages = [16, 17, 18, 19, 20, 60];
 
 function isAdult(element){
@@ -41,6 +42,7 @@ const retirementAgePeople = ages.filter(isRetire);
 console.log("Adults: ", adults);
 console.log("Childrens: ", childrens);
 console.log("Retired People: ", retirementAgePeople);
+*/
 
 // ------------------------------------------------------------
 
