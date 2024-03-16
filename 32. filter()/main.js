@@ -54,11 +54,11 @@ const words = ["Lion", "Tiger", "Giraffe",
                 "Human"];
 
 function getshortWords(element){
-    return element.element <= 6;
+    return element.length <= 6;
 }
 
 function getlongWords(element){
-    return element.element >= 6;
+    return element.length >= 6;
 }
 const shortWords = words.filter(getshortWords);
 const longWords = words.filter(getlongWords);
