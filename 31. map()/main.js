@@ -30,3 +30,13 @@ console.log(studentsUpper);
 
 const studentsLower = students.map(lowerCase);
 console.log(studentsLower);
+
+const dates = ["2023-1-10", "2025-2-20", "2026-3-30"];
+
+function formatDates(element){
+    const parts = element.split("-");
+    return `${parts[1]}/${parts[2]}/${parts[0]}`;
+}
+
+const formattedDates = dates.map(formatDates);
+console.log(formattedDates);
