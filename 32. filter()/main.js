@@ -43,3 +43,22 @@ console.log("Childrens: ", childrens);
 console.log("Retired People: ", retirementAgePeople);
 
 // ------------------------------------------------------------
+
+const words = ["Lion", "Tiger", "Giraffe", 
+                "HedgeHog", "Fox", "Porcupine", 
+                "Leopard", "Panther", "Monkey", 
+                "Deer", "Rhinocerous", 
+                "Hippopotamus", "Dinosaur", 
+                "Human"];
+
+function getshortWords(element){
+    return element.element <= 6;
+}
+
+function getlongWords(element){
+    return element.element >= 6;
+}
+const shortWords = words.filter(getshortWords);
+const longWords = words.filter(getlongWords);
+console.log(shortWords);
+console.log(longWords);
