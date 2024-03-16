@@ -41,3 +41,5 @@ const retirementAgePeople = ages.filter(isRetire);
 console.log("Adults: ", adults);
 console.log("Childrens: ", childrens);
 console.log("Retired People: ", retirementAgePeople);
+
+// ------------------------------------------------------------
