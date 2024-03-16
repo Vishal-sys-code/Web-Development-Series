@@ -36,6 +36,11 @@ function lowerCase(element, index, array){
     array[index] = element.toLowerCase();
 }
 
+function capitalize(element, index, array){
+    // array[index] = element.charAt(0).toUpperCase(); // this will display only the first characters.
+    array[index] = element.charAt(0).toUpperCase() + element.slice(1);
+}
+
 function display_1(element){
     console.log(element);
 }
@@ -44,4 +49,6 @@ fruits.forEach(display);
 fruits.forEach(upperCase);
 fruits.forEach(display);
 fruits.forEach(lowerCase);
+fruits.forEach(display);
+fruits.forEach(capitalize);
 fruits.forEach(display);
