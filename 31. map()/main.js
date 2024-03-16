@@ -16,3 +16,17 @@ function cube(element){
 
 console.log(squares);
 console.log(cubes);
+
+const students = ["Spongebob", "Patrick", "Squidward", "Sandy"];
+function upperCase(element){
+    return element.toUpperCase();
+}
+function lowerCase(element){
+    return element.toLowerCase();
+}
+
+const studentsUpper = students.map(upperCase);
+console.log(studentsUpper);
+
+const studentsLower = students.map(lowerCase);
+console.log(studentsLower);
