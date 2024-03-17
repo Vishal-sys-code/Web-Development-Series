@@ -14,3 +14,10 @@ const hello_2 = function(){
     console.log("Hello");
 }
 hello_2();
+
+// FUNCTION AS AN ARGUMENT
+setTimeout(function(){
+    console.log("Hello");
+}, 3000);
+
+// ---------------------------------------------------------
