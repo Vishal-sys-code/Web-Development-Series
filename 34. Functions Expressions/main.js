@@ -47,6 +47,11 @@ const evenNums = numbers.filter(function(element){
     return element % 2 === 0;
 });
 
+const oddNums = numbers.filter(function(element){
+    return element % 2 !== 0;
+});
+
 console.log(squares);
 console.log(cubes);
 console.log(evenNums);
+console.log(oddNums);
