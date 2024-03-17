@@ -43,6 +43,10 @@ const cubes = numbers.map(function(element){
     return Math.pow(element, 3);
 });
 
+const evenNums = numbers.filter(function(element){
+    return element % 2 === 0;
+});
 
 console.log(squares);
 console.log(cubes);
+console.log(evenNums);
