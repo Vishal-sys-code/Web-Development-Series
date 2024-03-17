@@ -60,3 +60,10 @@ console.log(cubes);
 console.log(evenNums);
 console.log(oddNums);
 console.log(total);
+
+/* 
+Function Expressions are used in most of:
+1. Callbacks in asynchronous operators
+2. High Order Functions
+3. Event Listeners
+*/
