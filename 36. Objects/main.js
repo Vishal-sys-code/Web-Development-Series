@@ -9,6 +9,7 @@ const person1 = {
     lastName: "Sqaurepants",
     age: 30,
     isEmployed: true,
+    sayHello: function(){console.log(`Hello I am ${person1.firstName} ${person1.lastName}`)},
 }
 const person2 = {
     firstName: "Patrick",
@@ -26,3 +27,5 @@ console.log(person2.firstName);
 console.log(person2.lastName);
 console.log(person2.age);
 console.log(person2.isEmployed);
+
+person1.sayHello();
