@@ -4,14 +4,14 @@ Objects: A collection of related properties and/or methods.
         object = {key: value, function()}
 */
 
-const person = {
+const person1 = {
     firstName: "Spongebob",
     lastName: "Sqaurepants",
     age: 30,
     isEmployed: true,
 }
 
-console.log(person.firstName);
-console.log(person.lastName);
-console.log(person.age);
-console.log(person.isEmployed);
+console.log(person1.firstName);
+console.log(person1.lastName);
+console.log(person1.age);
+console.log(person1.isEmployed);
